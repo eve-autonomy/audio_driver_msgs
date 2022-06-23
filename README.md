@@ -12,10 +12,11 @@ See [this link](/msg) for the latest definition.
 
 This is a message type for voice control commands.
 
-This is assumed that the following will be realized.
-- Play / stop audio in the specified path and instruct to adjust the volume.
-- Selection of single-shot playback or loop playback.
-- Specify the waiting time until the next playback.
+The following functions are controlled through this message.
+- Play and stop audio stored in the specified path.
+- Volume control.
+- Set playback of single or repeat.
+- Set delay time until next playback.
 
 ### SoundDriverRes.msg
 
